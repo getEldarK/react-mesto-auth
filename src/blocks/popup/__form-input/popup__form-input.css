@@ -1,0 +1,47 @@
+.popup__form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 358px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #000;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+::-webkit-input-placeholder {
+  color: grey;
+}
+::-moz-placeholder {
+  color: grey;
+}
+:-ms-input-placeholder {
+  color: grey;
+}
+::-ms-input-placeholder {
+  color: grey;
+}
+::placeholder {
+  color: grey;
+}
+
+.popup__form-input:first-child {
+  margin: 42px 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__form-input {
+    width: 238px;
+    height: 30px;
+    margin: 27px 0 0 0;
+  }
+ }

@@ -1,0 +1,27 @@
+.profile__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  align-items: center;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+  @media screen and (max-width: 767px) {
+    .profile__title {
+      margin-left: 30px;
+      width: 218px;
+    }
+   }
+
+   @media screen and (min-width: 768px)and (max-width: 1023px) {
+    .profile__title {
+      width: 410px;
+   }
+  }

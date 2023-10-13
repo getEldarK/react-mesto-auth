@@ -1,0 +1,22 @@
+.elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 67px;
+  max-width: 880px;
+}
+
+@media screen and (max-width: 767px) {
+  .elements {
+    padding-top: 36px;
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .elements {
+    padding-top: 36px;
+  }
+}

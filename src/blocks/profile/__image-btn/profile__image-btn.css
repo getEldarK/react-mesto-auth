@@ -1,0 +1,27 @@
+.profile__image-btn {
+  background-image: url("../../../images/avatar_edit.svg");
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  opacity: 0;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .8s ease;
+  cursor: pointer;
+}
+
+.profile__image-btn:hover {
+  opacity: .8;
+  background-color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__image-btn {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+  }
+}
