@@ -22,8 +22,8 @@ export default function Login(props) {
         <section className="login">
             <h2 className="login__title">Вход</h2>
             <form className="login__form" onSubmit={handleSubmit}>
-                <input className="login__input" type="email" placeholder="Email" onChange={handleEmailInput} required/>
-                <input className="login__input" type="password" placeholder="Пароль" autoComplete="on" onChange={handlePasswordInput} required/>
+                <input className="login__input" type="email" placeholder="Email"  value={email} onChange={handleEmailInput} required/>
+                <input className="login__input" type="password" placeholder="Пароль" autoComplete="on" value={password} onChange={handlePasswordInput} required/>
                 <button className="login__btn" type="submit">Войти</button>
             </form>
         </section>
