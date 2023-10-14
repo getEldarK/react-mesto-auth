@@ -1,6 +1,6 @@
 .login__input {
-    width: calc((100vw - 320px) / (1280 - 320) * (354 - 260) + 260px);
-    margin: 0 0 23px;
+    width: 358px;
+    margin: 0 0 30px;
     outline: none;
     border: none;
     background: none;
@@ -12,10 +12,4 @@
   
   .login__input:last-of-type {
     margin: 0;
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .login__input {
-      width: 354px;
-    }
   }
